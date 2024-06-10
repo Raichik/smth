@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.navigation{
+    position: relative;
+    width: 838px;
+    height: 23px;
+    top: 171px;
+    margin-left: 550px;
+}
+.activelink{
+    text-decoration: none;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #46A358;
+    font-weight: 700;
+    color: #46A358;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3d3d3d;
+    margin-left: 37px;
+}
+.link:hover{
+    border-bottom: 2px solid #46A358;
+    font-weight: 700;
+    color:#46A358;
+    padding-bottom: 7px;
+}
+.chover{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #3d3d3d;
+    margin-left: 385px;
+}
+.chover i {
+    margin-left: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: auto;
+    margin-top: 225px;
+}
+.card{
+    height: 300px;
+    width: 258px;
+    background-color: #FBFBFB;
+    margin-left: 40px;
+}
+.cardp{
+    color: #46A358;
+    font-weight: 700;
+    margin-top: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+}
+.card img{
+    height: auto;
+    display: block; 
+    position: flex;
+    margin-top: 31px;
+}
+.name{
+    margin-top: 31px;
+    
+}
+.card:hover{
+    border-top: 2px solid #46A358;
+}
+.old{
+    text-decoration: line-through;
+    color:#A5A5A5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-left: 13px;
+}
+.box{
+    position: absolute;
+    background-color: #46A358;
+    width: 80px;
+    height: 29px;
+margin-top: 8px;
+}
+.sale{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    margin:6px; 
+}
+.boxes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 258px;
+    height: 35px;
+    padding-bottom: 7px;
+}
+.boxes1{
+    padding-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
